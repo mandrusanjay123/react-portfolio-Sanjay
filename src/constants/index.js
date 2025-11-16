@@ -160,6 +160,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "1525 Amherst Manor Dr Apt 802, Buffalo, NY",
-  phoneNo: "+1 (716) 709-0989",
+  // phoneNo: "+1 (716) 709-0989",
   email: "mandrusanjaykumar@gmail.com"
 };
