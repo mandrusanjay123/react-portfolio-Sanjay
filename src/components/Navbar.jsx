@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter} from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-import { FaLeetcode } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
             <a href="https://github.com/mandrusanjay123" target="blank">
             <FaGithub/></a>
             <a href="https://leetcode.com/u/Sanjay_sanju/" target="blank">
-            <FaLeetcode/></a>
+            <SiLeetcode/></a>
             <a href="https://www.instagram.com/_sanjay.10m/" target="blank">
             <FaInstagram/></a>
             <a href="https://x.com/MandruKuma34172" target="blank">
