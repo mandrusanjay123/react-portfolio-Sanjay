@@ -9,9 +9,9 @@ import project8 from "../assets/projects/project-8.jpg";
 import project9 from "../assets/projects/project-9.jpg";
 import project10 from "../assets/projects/project-10.jpg";
 
-export const HERO_CONTENT = `Software Engineer with experience across backend systems, AI/ML pipelines, and data engineering. I’ve built scalable microservices at Samsung, integrated LLM and RAG systems, and engineered big-data pipelines on AWS. I specialize in designing reliable, efficient, and intelligent systems end-to-end.`;
+export const HERO_CONTENT = `I am a Software Engineer who enjoys creating practical, intelligent, and high performance systems. I work across backend development, AI driven applications, and data intensive workflows while also contributing to open source software. I enjoy solving real engineering problems and turning ideas into clean, maintainable, and scalable solutions.`;
 
-export const ABOUT_TEXT = `I focus on building production-grade systems across backend, AI/ML, and data engineering. My work spans microservice design, LLM integration, distributed pipelines with Kafka–Airflow–Spark, and autonomous systems using ROS2 and Autoware. I enjoy converting complex problems into clean, scalable, and reliable engineering solutions.`;
+export const ABOUT_TEXT = `I build software with a focus on clarity, reliability, and long term maintainability. My work includes designing backend services, integrating machine learning models into real applications, and developing data pipelines that support real time insights. I enjoy contributing to open source ecosystems, improving developer workflows, and collaborating across teams to bring complex systems to life.`;
 
 export const EXPERIENCES = [
   {
