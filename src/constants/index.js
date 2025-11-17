@@ -14,7 +14,7 @@ export const HERO_CONTENT = `Software Engineer with experience across backend sy
 export const ABOUT_TEXT = `I focus on building production-grade systems across backend, AI/ML, and data engineering. My work spans microservice design, LLM integration, distributed pipelines with Kafka–Airflow–Spark, and autonomous systems using ROS2 and Autoware. I enjoy converting complex problems into clean, scalable, and reliable engineering solutions.`;
 
 export const EXPERIENCES = [
-  {{
+  {
     year: "Oct 2024 - Present",
     role: "Software Engineer",
     company: "UB CAVAS Lab",
