@@ -9,91 +9,90 @@ import project8 from "../assets/projects/project-8.jpg";
 import project9 from "../assets/projects/project-9.jpg";
 import project10 from "../assets/projects/project-10.jpg";
 
-export const HERO_CONTENT = `I’m a versatile Software Engineer with experience in backend systems, full-stack web apps, and AI/ML product development. From integrating LLMs at Samsung to deploying autonomous vehicle software at UB, I specialize in building robust, intelligent, and scalable systems.`;
+export const HERO_CONTENT = `Software Engineer with experience across backend systems, AI/ML pipelines, and data engineering. I’ve built scalable microservices at Samsung, integrated LLM and RAG systems, and engineered big-data pipelines on AWS. I specialize in designing reliable, efficient, and intelligent systems end-to-end.`;
 
-export const ABOUT_TEXT = `With a background in Software Engineering and ML/AI, I’ve developed production-grade systems, integrated deep learning workflows, and engineered scalable backend services. My experience spans cloud platforms, distributed systems, and AI-driven automation. I'm passionate about translating complex requirements into clean code that delivers real impact.`;
+export const ABOUT_TEXT = `I focus on building production-grade systems across backend, AI/ML, and data engineering. My work spans microservice design, LLM integration, distributed pipelines with Kafka–Airflow–Spark, and autonomous systems using ROS2 and Autoware. I enjoy converting complex problems into clean, scalable, and reliable engineering solutions.`;
 
 export const EXPERIENCES = [
-  {
+  {{
     year: "Oct 2024 - Present",
     role: "Software Engineer",
-    company: "UB CAVAS Autonomous Vehicle",
-    domain: "Backend",
+    company: "UB CAVAS Lab",
+    domain: "Open Source Software / Systems",
     highlights: [
-      "Integrated Autoware on Lincoln MKZ using ROS2, C++, and Docker for autonomous navigation.",
-      "Simulated LiDAR-based navigation in Carla and Gazebo using Buffalo campus maps.",
-      "Fused LiDAR-camera sensor data for real-time localization and control pipelines."
+      "Collaborating on the integration and customization of the open-source Autoware ecosystem, contributing software patches, configuration modules, and system-level improvements.",
+      "Developed tooling and automation around build, launch, and configuration workflows using Docker, Python, and Linux scripting, improving reproducibility and reducing onboarding friction.",
+      "Engineered debugging utilities and logging pipelines to analyze inter-module communication, system performance, and message latency across distributed nodes.",
+      "Refactored and tuned system components to improve stability and integration reliability, enabling smoother interoperability between upstream Autoware modules and in-house extensions."
     ],
-    technologies: ["C++", "ROS2", "Docker", "Gazebo", "Carla"]
+    technologies: ["C++", "Python", "Docker", "Linux", "Open Source", "Automation"]
   },
+  
+
   {
-    year: "Jul 2022 - Jul 2024",
+    year: "Jul 2022 – Jul 2024",
     role: "Software Engineer",
-    company: "Samsung Research & Development, Noida",
-    domain: "Backend",
+    company: "Samsung Research & Development, Delhi",
+    domain: "Backend / Full Stack",
     highlights: [
-      "Built RESTful APIs and PostgreSQL DB schemas for Samsung’s internal VConnect platform.",
-      "Integrated Alexa & Spotify via C++ middleware, launching $5M+ soundbar line.",
-      "Reduced Tizen build time by 80% via Source Build & CI automation.",
-      "Implemented Redis caching & OAuth2 auth flows to improve security and performance."
+      "Designed REST/gRPC microservices powering Samsung’s Big Data Portal, enabling 35% faster insight retrieval.",
+      "Built React + Redux real-time dashboards using WebSockets for service-level analytics across engineering teams.",
+      "Optimized SQL query plans and caching strategies to speed up multi-million-row analytics workloads by 60%.",
+      "Automated CI/CD deployments on AWS EC2 using Docker, Jenkins, and S3, cutting release time by 60%.",
+      "Developed OAuth2-based RBAC security layers, improving access-control reliability and preventing unauthorized access.",
+      "Engineered C++ middleware integrating Alexa SDK and Spotify APIs for Samsung Soundbars, unlocking a $5M+ product line.",
+      "Accelerated Tizen OS firmware builds from 55 → 10 minutes with incremental build optimization."
     ],
-    technologies: ["Java", "Spring Boot", "C++", "OAuth2", "Redis", "Jenkins"]
+    technologies: ["Spring Boot", "PostgreSQL", "Redis", "Docker", "AWS", "React.js", "C++"]
   },
+
   {
-    year: "Feb 2023 - Jul 2024",
-    role: "Full Stack Engineer",
-    company: "Samsung Research & Development, Noida",
-    domain: "Full Stack",
+    year: "Jul 2022 – Jul 2024",
+    role: "AI/ML Engineer",
+    company: "Samsung Research & Development",
+    domain: "AI/ML",
     highlights: [
-      "Developed dashboards using React.js, WebSockets, and Chart.js for real-time analytics.",
-      "Built frontend/backend microservices for internal user and system metrics.",
-      "Enhanced user interface responsiveness and observability across engineering tools."
+      "Co-architected the GAYA Framework—an ensemble LLM system for summarization, reasoning, and sentiment tasks.",
+      "Built RAG pipelines with embedding-based retrieval and token-pruning, reducing inference latency by 40%.",
+      "Fine-tuned HuggingFace models for domain QA, reducing hallucinations via context filtering.",
+      "Developed Faster R-CNN models combining RGB+LiDAR for 28% improved recall on home-device perception.",
+      "Implemented Rainbow RL and D3 Actor-Critic agents achieving 94% success rates in navigation tasks.",
+      "Deployed AI microservices on AWS using Kubernetes and CI/CD automation, accelerating releases 3×."
     ],
-    technologies: ["React.js", "Redux", "WebSockets", "Chart.js", "Node.js"]
+    technologies: ["Python", "PyTorch", "Transformers", "RAG", "HuggingFace", "RL", "Docker", "Kubernetes"]
   },
+
   {
-    year: "Jul 2022 - Feb 2023",
-    role: "ML/AI Engineer",
-    company: "Samsung Research & Development, Noida",
-    domain: "ML",
+    year: "Jun 2021 – Jul 2022",
+    role: "Software Engineering Intern",
+    company: "Recursion (NIT Durgapur)",
+    domain: "AI / Full Stack",
     highlights: [
-      "Led integration of multiple LLMs into internal tools using the Gaya framework.",
-      "Reduced hallucinations in GenAI workflows using prompt tuning & RAG-based filtering.",
-      "Built multilingual NLP pipelines and auto-tagging systems for smart appliances."
+      "Built a contactless gesture-recognition trainer using OpenCV + MediaPipe with 95% accuracy.",
+      "Developed full-stack web apps with React.js and Node.js, reducing page-load latency by 60%.",
+      "Implemented Extreme Learning Machines for wireless propagation modeling, outperforming baseline regressions by 18%."
     ],
-    technologies: ["Python", "LLM", "NLP", "Gaya Framework", "HuggingFace"]
-  },
-  {
-    year: "Jun 2021 - Jul 2022",
-    role: "Software Engineer",
-    company: "Recursion",
-    domain: "Full Stack",
-    highlights: [
-      "Developed gesture recognition trainer with OpenCV and MediaPipe (95% accuracy).",
-      "Built a food ordering app using Node.js, Express, and Google Maps API.",
-      "Created full-stack product demos for dynamic web and AI interaction systems."
-    ],
-    technologies: ["Python", "OpenCV", "MediaPipe", "Node.js", "JavaScript", "HTML/CSS"]
+    technologies: ["OpenCV", "MediaPipe", "React.js", "Node.js", "Python", "TensorFlow"]
   }
 ];
+
 
 export const PROJECTS = [
   // Full Stack Projects
   {
-    title: "All-in-One Resume Builder with ATS Tracker",
+    title: "AI ATS Resume Builder (SaaS)",
     image: project1,
-    domain: "Full Stack",
-    description: "Built a resume builder with real-time NLP scoring and Stripe-based credit system using MERN stack.",
-    technologies: ["React.js", "Node.js", "MongoDB", "Express", "NLP", "Stripe"]
+    domain: "AI + Full Stack",
+    description: "Full-stack platform with NLP-driven keyword scoring, ATS analytics, and a credit-based Stripe billing system.",
+    technologies: ["React.js", "Node.js", "MongoDB", "NLP", "Stripe"]
   },
   {
     title: "Image Background Remover (AI SaaS)",
     image: project2,
-    domain: "Full Stack",
-    description: "Built an AI-powered background remover web app with payment system, user auth, and credit usage model.",
-    technologies: ["React.js", "Node.js", "MongoDB", "Clerk", "Stripe", "Python"]
-  }
-  ,
+    domain: "AI + Full Stack",
+    description: "AI background removal web app with Clerk auth and pay-per-use credit model.",
+    technologies: ["React.js", "Node.js", "MongoDB", "Python", "Clerk", "Stripe"]
+  },
   {
     title: "Smart Food Ordering with Live Location",
     image: project3,
@@ -104,11 +103,11 @@ export const PROJECTS = [
 
   // Backend Projects
   {
-    title: "VConnect Platform Microservices",
+    title: "Kafka → Airflow → Spark Streaming Pipeline",
     image: project4,
-    domain: "Backend",
-    description: "Engineered scalable backend services and secure auth workflows for Samsung’s VConnect platform.",
-    technologies: ["Spring Boot", "PostgreSQL", "OAuth2", "Jenkins", "Redis"]
+    domain: "Data Engineering",
+    description: "Real-time data ingestion pipeline with schema evolution and Redshift analytics under 5-second latency.",
+    technologies: ["Kafka", "Spark", "Airflow", "AWS S3", "Redshift"]
   },
   {
     title: "Middleware Optimization for Soundbars",
@@ -120,20 +119,20 @@ export const PROJECTS = [
 
   // Frontend Projects
   {
-    title: "Real-Time Dashboards for Samsung Engineering",
+    title: "Real-Time Dashboards for Engineering",
     image: project6,
     domain: "Frontend",
-    description: "Created dashboards using React, Chart.js, and WebSockets for real-time system performance tracking.",
-    technologies: ["React.js", "Chart.js", "WebSockets", "Redux"]
+    description: "React + WebSockets dashboards visualizing system metrics and live analytics.",
+    technologies: ["React.js", "WebSockets", "Chart.js"]
   },
 
   // // ML/AI Projects
   {
-    title: "GAYA Framework LLM Integration",
+    title: "RAG-Powered RL Agent Generator",
     image: project7,
-    domain: "ML",
-    description: "Integrated multiple LLMs (sentiment, summarization, reasoning) for internal GenAI agents at Samsung.",
-    technologies: ["Python", "LLM", "Prompt Engineering", "NLP", "HuggingFace"]
+    domain: "AI/ML",
+    description: "Combined RAG pipelines with policy-gradient RL to dynamically retrieve knowledge and reduce irrelevant responses by 33%.",
+    technologies: ["Python", "LangChain", "FAISS", "PyTorch", "RAG"]
   },
   {
     title: "Reinforcement Learning for Robotics",
@@ -143,18 +142,18 @@ export const PROJECTS = [
     technologies: ["Python", "Deep RL", "Actor-Critic", "PyTorch"]
   },
   {
-    title: "IoT Data Pipeline & Smart Analytics",
+    title: "Distributed Big Data Benchmarking",
     image: project9,
-    domain: "ML",
-    description: "Processed 10K+ smart appliance logs using Spark and Hadoop, enabling real-time decisions.",
-    technologies: ["Spark", "Hadoop", "Python", "Big Data"]
+    domain: "Data Engineering",
+    description: "Benchmarked Spark/Hadoop pipelines for large-scale inference, achieving 20× speedups over multiprocessing.",
+    technologies: ["Spark", "Hadoop", "Python"]
   },
   {
-    title: "Vision-Based Object Detection for RVCs",
+    title: "Pix2Pix GAN – Sketch to Photo",
     image: project10,
-    domain: "ML",
-    description: "Built CNN-based object detection for robotic vacuums, improving obstacle recall by 28%.",
-    technologies: ["Python", "Computer Vision", "CNNs", "OpenCV"]
+    domain: "AI/ML",
+    description: "Trained a Pix2Pix GAN achieving SSIM 0.72 for sketch-to-photo translation.",
+    technologies: ["GANs", "TensorFlow", "Python"]
   }
 ];
 
