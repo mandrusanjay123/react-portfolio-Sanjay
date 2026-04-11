@@ -31,7 +31,7 @@ export const EXPERIENCES = [
 }
   ,{
     year: "Feb 2024 - Mar 2026",
-    role: "Software Engineer",
+    role: "Software Research Assistant",
     company: "UB CAVAS Lab",
     domain: "Open Source Software / Systems",
     highlights: [
@@ -79,7 +79,7 @@ export const EXPERIENCES = [
 
   {
     year: "Jun 2021 – Jul 2022",
-    role: "Software Engineering Intern",
+    role: "Software Research Volunteer",
     company: "Recursion (NIT Durgapur)",
     domain: "AI / Full Stack",
     highlights: [
