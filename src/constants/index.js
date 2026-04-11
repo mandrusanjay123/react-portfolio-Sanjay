@@ -9,13 +9,28 @@ import project8 from "../assets/projects/project-8.jpg";
 import project9 from "../assets/projects/project-9.jpg";
 import project10 from "../assets/projects/project-10.jpg";
 
-export const HERO_CONTENT = `I am a Software Engineer who enjoys creating practical, intelligent, and high performance systems. I work across backend development, AI driven applications, and data intensive workflows while also contributing to open source software. I enjoy solving real engineering problems and turning ideas into clean, maintainable, and scalable solutions.`;
+export const HERO_CONTENT = `I am a Software Engineer who enjoys creating practical, intelligent and high performance systems. I work across backend development, AI driven applications and data intensive workflows while also contributing to open source software. I enjoy solving real engineering problems and turning ideas into clean, maintainable and scalable solutions.`;
 
-export const ABOUT_TEXT = `I build software with a focus on clarity, reliability, and long term maintainability. My work includes designing backend services, integrating machine learning models into real applications, and developing data pipelines that support real time insights. I enjoy contributing to open source ecosystems, improving developer workflows, and collaborating across teams to bring complex systems to life.`;
+export const ABOUT_TEXT = `I approach software engineering with a systems mindset focusing on building solutions that are clear, robust and built to last. My work involves developing backend services, orchestrating distributed workflows and integrating intelligent components into real-world applications. I care deeply about reliability, observability and performance and I enjoy solving complex engineering problems that require thinking across system boundaries. I also contribute to open source and continuously explore ways to improve developer productivity and system design.`;
 
 export const EXPERIENCES = [
   {
-    year: "Oct 2024 - Present",
+  year: "Apr 2026 - Present",
+  role: "Software Engineer",
+  company: "AI Workflow Platform",
+  domain: "Distributed Systems / AI Infrastructure",
+  highlights: [
+    "Building and scaling platform services that enable intelligent, multi-step workflows across productivity applications and devices.",
+    "Designing and implementing backend systems to orchestrate workflow execution, service integrations and data flow across distributed components.",
+    "Working on high-scale systems with a focus on reliability, latency optimization and fault-tolerant execution of workflow pipelines.",
+    "Leveraging telemetry, logging and tracing to debug cross-service interactions and improve system observability in production environments.",
+    "Collaborating across platform and application teams to standardize workflow interfaces and improve developer experience for integrating intelligent capabilities.",
+    "Contributing to the evolution of AI-driven workflows by integrating structured outputs and service responses into cohesive user-facing experiences."
+  ],
+  technologies: ["TypeScript", "Node.js", "C#", "Distributed Systems", "Telemetry", "Cloud", "APIs"]
+}
+  ,{
+    year: "Feb 2024 - Mar 2026",
     role: "Software Engineer",
     company: "UB CAVAS Lab",
     domain: "Open Source Software / Systems",
