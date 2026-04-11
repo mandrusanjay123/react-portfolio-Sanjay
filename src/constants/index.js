@@ -16,8 +16,8 @@ export const ABOUT_TEXT = `I approach software engineering with a systems mindse
 export const EXPERIENCES = [
   {
   year: "Apr 2026 - Present",
-  role: "Software Engineer",
-  company: "AI Workflow Platform",
+  role: "Software Engineer II",
+  company: "Microsoft",
   domain: "Distributed Systems / AI Infrastructure",
   highlights: [
     "Building and scaling platform services that enable intelligent, multi-step workflows across productivity applications and devices.",
